@@ -3,7 +3,13 @@ import AuctionCard from "./components/AuctionCard";
 import { useSocket } from "./hooks/useSocket";
 import { AlertCircle } from "lucide-react";
 
+<<<<<<< HEAD
 const BACKEND_URL = "https://levich-internship-challenge.onrender.com";
+=======
+
+const BACKEND_URL = "https://levich-internship-challenge.onrender.com";
+
+>>>>>>> 2936cb6 (Use VITE_BACKEND_URL env variable for API and socket)
 
 function App() {
   const [items, setItems] = useState([]);
