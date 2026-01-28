@@ -4,7 +4,7 @@ import { useSocket } from "./hooks/useSocket";
 import { AlertCircle } from "lucide-react";
 
 
-const VITE_BACKEND_URL = "https://levich-internship-challenge.onrender.com";
+const BACKEND_URL = "https://levich-internship-challenge.onrender.com";
 
 
 function App() {
