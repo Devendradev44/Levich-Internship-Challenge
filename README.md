@@ -1,0 +1,2 @@
+# Levich-Internship-Challenge
+A real-time auction platform where users compete to buy items in the final seconds.
