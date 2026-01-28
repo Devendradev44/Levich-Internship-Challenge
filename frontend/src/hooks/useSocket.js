@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { io } from "socket.io-client";
 
-const SOCKET_URL = `http://${window.location.hostname}:5000`;
+const SOCKET_URL = "https://levich-internship-challenge.onrender.com";
 
 export const useSocket = () => {
     const [socket, setSocket] = useState(null);
