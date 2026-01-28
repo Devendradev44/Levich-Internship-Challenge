@@ -3,7 +3,10 @@ import AuctionCard from "./components/AuctionCard";
 import { useSocket } from "./hooks/useSocket";
 import { AlertCircle } from "lucide-react";
 
-const BACKEND_URL = `http://${window.location.hostname}:5000`;
+// const BACKEND_URL = `http://${window.location.hostname}:5000`;
+
+const BACKEND_URL = "https://levich-internship-challenge.onrender.com";
+
 
 function App() {
   const [items, setItems] = useState([]);
